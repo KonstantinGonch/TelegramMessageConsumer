@@ -9,7 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <DockPanel>
         <wv2:WebView2 Name="webView"
-                  Source="http://82.146.56.114/"
+                  Source="https://web.telegram.org/k" WebMessageReceived="webView_WebMessageReceived"
    />
     </DockPanel>
 </Window>
